@@ -37,9 +37,6 @@ export class AppComponent {
     const modalRef = this.modalService.open(GoogleMapsComponent,
       {
         scrollable: true,
-        // windowClass: 'myCustomModalClass',
-        // keyboard: false,
-        // backdrop: 'static'
       });
     let data = {
       prop1: 'Some Data',

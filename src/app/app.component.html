@@ -3,7 +3,7 @@
     <p>
         <button class="btn btn-primary" (click)="openGoogelMapsModal()">Open Google Map</button>
     </p>
-    <p *ngIf="coordinates.latitude">
+    <p *ngIf="coordinates.latitude && coordinates.longitude">
         <button class="btn btn-primary" (click)="showSunriseSunsetTimes()">Get Sun Times</button>
     </p>
     <h1>
